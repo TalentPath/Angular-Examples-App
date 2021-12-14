@@ -1,0 +1,5 @@
+
+<div *ngIf="loggedIn">Welcome {{username}}</div>
+<div *ngIf="!loggedIn">Please Log in</div>
+<input type="text" [(ngModel)]="message">
+<button class="btn btn-primary" (click)="callParentGreet()">Greet Parent</button>

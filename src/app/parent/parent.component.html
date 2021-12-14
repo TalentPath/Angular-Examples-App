@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col">
+        <h2>Parent</h2>
+    <button class="btn btn-primary" (click)="login()">Login</button>
+    <button class="btn btn-secondary" (click)="logout()">Logout</button>
+    <div>Child Says {{messageFromChild}}</div>
+    </div>
+    <div class="col">
+        <h2>Child</h2>
+        <app-child [loggedIn]="userLoggedIn" (greetEvent)="greet($event)"></app-child>
+    </div>
+</div>
