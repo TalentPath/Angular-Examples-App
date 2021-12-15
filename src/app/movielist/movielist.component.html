@@ -1,0 +1,8 @@
+<h1>Movie Search</h1>
+<input type="text" [(ngModel)]="searchTerm">
+<button (click)="searchMovie()">Search</button>
+<div>
+    <ul>
+        <li *ngFor="let movie of results"><span *ngIf="movie!=undefined">{{movie.title}}</span></li>
+    </ul>
+</div>
