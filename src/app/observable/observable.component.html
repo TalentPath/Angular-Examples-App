@@ -1,0 +1,15 @@
+<p>observable works!</p>
+
+<div *ngFor="let student of students">
+    <p>Id: {{student.id}}</p>
+    <p>Name: {{student.name}}</p>
+    <p>Age: {{student.age}}</p>
+
+</div>
+
+
+
+<button (click)='clickMe()'>Observe!</button>
+
+<div *ngFor="let ob1 of observeOf">{{ob1}}</div>
+<div *ngFor="let ob2 of observeFrom">{{ob2}}</div>

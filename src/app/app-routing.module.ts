@@ -4,6 +4,7 @@ import { BindingComponent } from './binding/binding.component';
 import { FormsComponent } from './forms/forms.component';
 import { HomeComponent } from './home/home.component';
 import { MovielistComponent } from './movielist/movielist.component';
+import { ObservableComponent } from './observable/observable.component';
 import { ParentComponent } from './parent/parent.component';
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:'forms', component:FormsComponent},
   {path:'parent-child', component:ParentComponent},
   {path:'movie-list', component:MovielistComponent},
+  {path:'observable', component:ObservableComponent},
   {path:'', redirectTo:'/home', pathMatch:'full'}
 ];
 

@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { MovielistComponent } from './movielist/movielist.component';
+import { ObservableComponent } from './observable/observable.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MovielistComponent } from './movielist/movielist.component';
     HomeComponent,
     ParentComponent,
     ChildComponent,
-    MovielistComponent
+    MovielistComponent,
+    ObservableComponent
   ],
   imports: [
     BrowserModule,
